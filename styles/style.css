@@ -42,8 +42,24 @@ body {
     height: 48px;
     align-items: center;
     justify-content: flex-end;
+
 }
 .gmail, .images {
     padding: 6px;
     
+}
+.google-icons {
+    padding-left: 0px;
+    white-space: nowrap;
+    justify-content: center;
+}
+.google-apps {
+    height: 20px;
+    padding-right: px;
+    position: relative;
+    bottom: 5px;
+}
+.profile-picture {
+    height: 30px;
+    padding-top: 2px;
 }
