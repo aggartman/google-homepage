@@ -49,17 +49,17 @@ body {
     
 }
 .google-icons {
-    padding-left: 0px;
+    padding: 0 10px;
     white-space: nowrap;
     justify-content: center;
 }
 .google-apps {
     height: 20px;
-    padding-right: px;
+    padding-right: 10px;
     position: relative;
     bottom: 5px;
 }
 .profile-picture {
     height: 30px;
-    padding-top: 2px;
+    padding: 2px 10px 0 5px;
 }
