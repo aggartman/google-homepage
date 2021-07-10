@@ -42,6 +42,7 @@ body {
     height: 48px;
     align-items: center;
     justify-content: flex-end;
+    cursor: pointer;
 
 }
 .gmail, .images {
@@ -159,14 +160,65 @@ button {
     height: 50px;
     position: absolute;
     bottom: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
 .footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
-    height: 50px;
+    height: 45px;
     padding: 0 20px;
+}
+.footer1 {
+    display: flex;
+    box-sizing: border-box;
+    width: 33%;
+    align-items: center;
+    font-size: 14px;
+    color:rgba(83, 83, 83, 0.685)
+}
+.inline {
+    display: inline;
+    padding: 0 2px;
+    cursor: pointer;
+}
+.bi, question {
+    padding-left: 20px;
+}
+.question {
+    padding-left: 20px;
+}
+.footer2 {
+    display: flex;
+    box-sizing: border-box;
+    width: 33%;
+    align-items: center;
+}
+.carbonneutral {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 6%;
+    color: rgba(83, 83, 83, 0.685);
+}
+.carbonleaf {
+    width: 13px;
+}
+.footer3 {
+    display: flex;
+    box-sizing: border-box;
+    width: 33%;
+    align-items: center;
+}
+.settings {
+    width: 100%;
+    text-align: right;
+    color: rgba(83, 83, 83, 0.685);
+    cursor: pointer;
+}
+.privacy, .terms {
+    padding-right: 20px;
+}
+.privacy {
+    padding-right: 20px;
 }
