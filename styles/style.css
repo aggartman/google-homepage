@@ -63,3 +63,110 @@ body {
     height: 30px;
     padding: 2px 10px 0 5px;
 }
+.title-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.Logo {
+    margin: 0 auto;
+    max-height: 92px;
+    padding-top: 5%;
+}
+.google-logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.mid-page {
+    margin: 0 auto;
+    width: 100%;
+    /* padding: 20px;
+    max-height: 160px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 130px;
+}
+.search-area {
+    width: auto;
+    max-width: 584px;
+}
+.box {
+    width: 580px;
+    height: 43px;
+    border: 1px solid rgba(165, 165, 165, 0.699);
+    border-radius: 24px; 
+}
+.magnify {
+    width: 15px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.search-field {
+    background: transparent;
+    border: none;
+    width: 500px;
+    height: 30px;
+    margin: 0 auto;
+    position: relative;
+    left: 45px;
+    bottom: 16px;
+    color: rgba(46, 46, 46, 0.842)
+}
+.search-field:focus {
+    outline: none;
+}
+.center {
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+}
+button {
+    width: 9.7em;
+    height: 2.7em;
+    margin: 35px 2px;
+    font-family: sans-serif;
+    position: relative;
+    left: 105px;
+    bottom: 6px;
+    background-color: rgb(250, 250, 254);
+    color: rgb(61, 61, 61);
+    border: none;
+    border-radius: 4px;
+}
+.search .lucky {
+    height: 30px;
+    width: auto;
+    padding: 10px 5px;
+    text-align: center;
+}
+.whitespace {
+    flex-grow: 1;
+}
+.foot{
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+}
